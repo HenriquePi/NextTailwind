@@ -57,7 +57,7 @@ node version 16.18.0
     ```html 
     <div className="p-2 md:p-4"/>
     ```
-- fonts are in /styles/font
+- fonts are in `/styles/font`
   - fonts are initialized in tailwind.css
 
 ## Typography
@@ -77,9 +77,11 @@ node version 16.18.0
 - sub folders are based on page/brand resources/generic use
 - import assets like other files
   - import AnyImageName from "/assets/brand/logo.png"
-  - use ```html 
+  - use 
+    ```html 
     <Image src={AnyImage} alt="Any Image">
-    ``` from next/image 
+    ``` 
+    from next/image 
 
 ## Types
 - custom object types are in the `/type folder`
