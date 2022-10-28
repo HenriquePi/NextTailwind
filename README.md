@@ -66,22 +66,24 @@ node version 16.18.0
 - default font is set in tailwind.css
 
 ## project structure
-- layout (header/footer) are in /components/layout
+- layout (header/footer) are in `/components/layout`
 - project is modular
-- page specific components are in /components/[pagename]
+- page specific components are in `/components/[pagename]`
 - global components are in /components
-  - global sub-components are in /components/[component]
+  - global sub-components are in `/components/[component]`
 
 ## Assets
 - assets are located in /assets
 - sub folders are based on page/brand resources/generic use
 - import assets like other files
   - import AnyImageName from "/assets/brand/logo.png"
-  - use <Image src={AnyImage} alt="Any Image"> from next/image 
+  - use ```html 
+    <Image src={AnyImage} alt="Any Image">
+    ``` from next/image 
 
 ## Types
-- custom object types are in the /type folder
+- custom object types are in the `/type folder`
 
 ## Forms
 - forms are handled using React Hook Form
-  - https://react-hook-form.com/
+  - [documentation](https://react-hook-form.com/)
