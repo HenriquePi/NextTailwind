@@ -43,14 +43,14 @@ node version 16.18.0
 ## CSS
 - app is set up with tailwind
 - most style can be written in /styles/tailwind.css
-- you can target class & tags with this syntax:
+- you can target class & tags with this syntax:```
     .your-class {
       @apply py-2 px-4 bg-blue-500;
-    }
+    }```
   - tailwind is mobile first, so write mobile classes:
-    <div className="p-2"/>
+    ```<div className="p-2"/>```
   - followed by breakpoint & upper class
-    <div className="p-2 md:p-4"/>
+    ```<div className="p-2 md:p-4"/>```
 - fonts are in /styles/font
   - fonts are initialized in tailwind.css
 
