@@ -26,6 +26,18 @@ node version 16.18.0
 - fonts are in `/styles/font`
   - fonts are initialized in tailwind.css
 
+### Breakpoints
+- 'xs': '375px',
+- 'sm': '640px',
+- 'md': '768px',
+- 'lg': '1024px',
+- 'xl': '1280px',
+- '2xl': '1536px',
+- '3xl': '1920px',
+- '4xl': '2560px',
+- '5xl': '3840px',
+- '6xl': '7680px',
+
 ## Typography
 - font size is set to 62.5%
 - use rem for font sizes (e.g 12px - 1.2rem)
